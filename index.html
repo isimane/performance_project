@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                fontFamily: { 
+                        pop: ["Poppins", "sans-serif"], 
+                    },
+                colors: { 
+                    blue:"#323F73",
+                    lightblue: "#95AFBA",
+                    yellow:"#FFD888",
+                    lightcy:"#CCFFFC",
+                    cyan:"#23A9A1",
+                    smoke:"#F5F8FA",
+                    orannge:'#E95829',
+                    lightorange:'#FFD9CC',
+                },
+                },
+            },
+            };
+    </script>
+</head>
+<body class="font-pop"> 
+    <!-- <header class="bg-[url('images/Background Gradient.png')] bg-gradient-to-r from-neutral-50 to-zinc-100"> -->
+        <header class="bg-[url('images/Background Gradient.png')]">
+        <nav class="flex flex-row justify-between w-[90%] mx-auto pt-8">
+            <div class="">
+                <h1 class=" text-xl  font-bold text-blue md:text-2xl">Performance</h1>
+            </div>
+            <div class="hidden md:flex flex-row gap-10 text-[15px]  items-center text-blue lg:flex flex-row gap-10 text-[15px]  items-center text-blue">
+                <a href="#" class="">Product</a>
+                <a href="#">Academy</a>
+                <a href="#">Careers</a>
+                <a href="#">Blog</a>
+                <a href="#" class="">Signin</a>
+                <button class="bg-blue text-white rounded-lg py-2 px-4">Signup</button>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list text-blue  md:hidden lg:hidden" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+              </svg>
+        </nav>
+        <div><img src="images/Graphics.png" alt="graphics" class="w-full object-cover object-center ounded-3xl md:hidden"></div>
+<!-- section -->
+        <section class="flex flex-col ml-[5%]  md:flex-row justify-between md:mt-[4%] ">
+            <section class="w-[90%]  md:w-[38%] md:mt-[7%] ">
+                <h2 class="pb-7 text-blue text-[23px]  w-[90%] mx-auto text-center font-bold md:text-start md:text-4xl md:pb-10 md:w-full">Your Next Performance Management Platform</h2>
+                <p class="pb-7 w-[90%] mx-auto text-lightblue text-center text-[14px] md:text-start md:w-full md:text-[18px] md:pb-10">Fully Customizable performance management platform that suits your culture. not the other way around</p> 
+                <form action="email" class="flex flex-col md:flex-row">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope relative bottom-[-27px] right-[-40px] md:realtive md:bottom-[-13px] md:right-[-24px]" viewBox="0 0 16 16">
+                        <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
+                      </svg>
+                    <input type="email" name="email" id="email" placeholder="Add your email adress" class="mb-4 placeholder-black bg-smoke outline-none p-3 text-center text-[12px] md:rounded-l-lg md:text-start md:mb-0 md:py-3 px-10">
+                    <div class="hidden md:block">
+                        <button class="bg-gradient-to-r from-rose-500 to-orange-400 p-3   text-white text-[12px]  md:rounded-r-lg md:relative left-[-20px] md:p-3">Get started for free</button>
+                    </div>
+                    <div class="flex mx-auto">
+                                            
+                        <button class=" bg-gradient-to-r from-rose-500 to-orange-400 p-3 mx-auto iwhitetems-center text-white text-[12px]  md:hidden">Get started for free</button>
+                    </div>
+                </form>
+            </section>
+            <img src="images/Hero Image.png" alt="hero" class="hidden md:block w-[460px] object-cover object-center ounded-3xl">
+        </section>
+    </header>
+<!-- main -->
+    <main>
+
+        <section class="w-[90%] mx-auto  mt-[17%] md:mt-[7%]">
+            <img src="images/03 Logo ⚡️ Credit goes to Freepik.png" alt="logos" class="hidden md:block md:w-[90%] mx-auto object-cover object-center">
+            <img src="images/logos.png" alt="logos" class="w-full object-cover object-center rounded-3xl md:hidden">
+        </section>
+
+<!-- section orange1-->
+        <section class="mt-[25%] md:mt-[23%]">
+            <div class="flex flex-col gap-10 md:flex-row">                  
+                
+                    <img src="images/Product Graphics.png" alt="" class="hidden md:block h-[450px] w-[340px] object-cover object-center rounded-3xl"> 
+                    <div class=" w-[90%] mx-auto md:w-[27%] md:mx-0">
+                        <h3 class="text-center w-[90%] mx-auto font-bold text-[27px] text-blue pb-3 md:w-full md:text-start text-4xl">Meet Our Products</h3>
+                        <p class="text-center w-[90%] mx-auto text-lightblue text-[15px]  md:text-start md:w-full">Our Products work Togather seamlessly to form talent science. start with one or more. </p>
+                    </div>
+            </div>
+            <div class="flex flex-col mt-10 w-[90%] text-[12px] mx-auto md:flex-row gap-[5%] md:mt-0 md:w-[80%] md:relative top-[-200px]  left-[140px]">
+                    <img src="images/Goal Management (1).png" alt="" class="hidden md:block w-[380px] h-[190px] object-cover object-center rounded-3xl">
+                    <div>
+                        <div class="flex items-center justify-center mb-5 md:justify-start">
+                            <button class="bg-lightorange py-2 px-4 rounded-lg text-orannge  ">Align</button>
+                        </div>
+                        <div class=" w-[90%] mx-auto text-center mb-5 md:w-[55%] md:mx-0 md:text-start mb-5">
+                            <h3 class="text-xl text-blue font-semibold">Goal Management</h3>
+                            <div class="w-[30%] mx-auto border-2 border-yellow my-3 md:mx-0"></div>
+                            <p class="text-lightblue text-[15px]">Our Products work Together seamlessly to form talent science. start with one or more. </p>
+                        </div>
+
+                        <ul class="flex flex-row items-center justify-center text-blue text-[15px] gap-[24%] list-disc mb-5	marker:text-lightorange md:justify-start">
+                            <li>Daily track</li>
+                            <li>road map</li>
+                        </ul>
+
+                        <div class="flex items-center justify-center md:justify-start">
+                            <button class=" bg-yellow py-3 px-4 text-[15px] rounded-lg text-blue">Learn more</button>
+                        </div>
+                    </div>
+            </div>
+        </section>
+<!-- section cyan -->
+           <section class="flex flex-col w-[90%] mx-auto mt-20 md:w-[65%] md:flex-row md:mt-0">
+                <div class="w-[90%] mx-auto md:w-[100%]">
+                    <div class="flex items-center justify-center mb-5 md:justify-start">
+                        <button class="bg-lightcy py-2 px-4 rounded-lg text-cyan ">Align</button>
+                    </div>
+                    <div class="  mx-auto text-center mb-5 md: md:mx-0 md:text-start mb-5">
+                        <h3 class="text-xl text-blue font-semibold">Remote Tool</h3>
+                        <div class="w-[30%] mx-auto border-2 border-yellow my-3 md:mx-0"></div>
+                        <p class="text-lightblue">Our Products work Together seamlessly to form talent science. start with one or more. </p>
+                    </div>
+
+                    <ul class="flex flex-row items-center justify-center text-[15px] text-blue gap-[15%] list-disc mb-5	marker:text-lightorange md:justify-start md:gap-[24%]">
+                        <li>Remote Acces</li>
+                        <li>Work Anytime</li>
+                    </ul>
+
+                    <div class="flex items-center justify-center md:justify-start">
+                        <button class=" bg-yellow py-3 px-4 text-[15px] rounded-lg text-blue">Learn more</button>
+                    </div>
+                </div>
+                <img src="images/Remote Tool Graphics.png" alt="" class="hidden md:block w-[600px] object-cover object-center rounded-3xl">
+           </section>
+<!-- section orange2 -->
+           <section class="flex flex-col w-[90%] mx-auto mt-20 mb-20 md:w-[70%] md:flex-row md:mt-[13%] gap-[5%]">
+                <img src="images/Graphics 04.png" alt="" class="hidden md:block w-[500px] object-cover object-center rounded-3xl">
+                <div class="w-[90%] mx-auto md:w-[100%]">
+                    <div class="flex items-center justify-center mb-5 md:justify-start">
+                        <button class="bg-lightorange py-2 px-4 rounded-lg text-orannge ">Review</button>
+                    </div>
+                    <div class="  mx-auto text-center mb-5 md: md:mx-0 md:text-start mb-5">
+                        <h3 class="text-xl text-blue font-semibold">Performance Review</h3>
+                        <div class="w-[30%] mx-auto border-2 border-yellow my-3 md:mx-0"></div>
+                        <p class="text-lightblue ">Our Products work Together seamlessly to form talent science. start with one or more. </p>
+                    </div>
+
+                    <ul class="flex flex-row items-center justify-center text-[15px] text-blue gap-[15%] list-disc mb-5	marker:text-lightorange md:justify-start md:gap-[24%]">
+                        <li>Track Performance</li>
+                        <li>Status Review</li>
+                    </ul>
+
+                    <div class="flex items-center justify-center md:justify-start">
+                        <button class=" bg-yellow py-3 px-4  rounded-lg text-blue">Learn more</button>
+                    </div>
+                </div>
+           </section>
+
+           <!-- section  -->
+           <section class="hidden md:flex flex-row bg-smoke w-[80%] mx-auto p-10 rounded-2xl ">
+                    <div class=" ">
+                        <h3 class="text-4xl text-blue mb-7 font-bold">People use our Software and counting.</h3>
+                        <p class="text-lightblue mb-7 w-[70%]">Fully Customizable performance management platform that suits your culture. not the other way around</p>
+                        <div class="flex gap-5">
+                            <button class="bg-white text-blue font-bold text-5xl p-5 rounded-lg">1</button>
+                            <button class="bg-white text-blue font-bold text-5xl p-5 rounded-lg">2</button>
+                            <button class="bg-white text-blue font-bold text-5xl p-5 rounded-lg">1</button>
+                            <button class="bg-white text-blue font-bold text-5xl p-5 rounded-lg" >7</button>
+                        </div>
+                    </div>
+                    <img src="images/Graphics 05.png" alt="" class="w-[400px] h-[320px] object-cover object-center rounded-3xl" ]>
+                
+           </section>
+           <section class="hidden md:block mt-[5%] ">
+                <section class=" mx-auto flex flex-row ml-[5%] mx-auto">
+                    
+                    <div class="mt-40 mr-20">
+                        <ul>
+                            <button class="bg-gradient-to-r from-gray-50 to-slate-100 p-[0.5px] rounded-lg"><li class="flex text-cyan  px-2 items-center gap-3"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box text-cyan" viewBox="0 0 16 16">
+                                <path d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5 8 5.961 14.154 3.5zM15 4.239l-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464z"/>
+                            </svg>Products</li></button>
+                            <li class="flex text-blue items-center gap-3"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bell-fill" viewBox="0 0 16 16">
+                                <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2m.995-14.901a1 1 0 1 0-1.99 0A5 5 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901"/>
+                            </svg>Subscription</li>
+                            <li class="flex text-blue items-center gap-3"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                                <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+                            </svg>Customer</li>
+                            <li class="flex text-blue items-center gap-3"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg>Data Plans</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <div class="w-[50%] mx-auto">
+                            <h3 class="text-2xl text-blue mb-2 text-center font-bold">Frequently Asked Questions</h3>
+                            <p class="text-lightblue text-[15px] text-center mb-9">Fully Customizable performance management platform that suits your culture. not the other way around</p>
+                        </div>
+                        <div class="  border-l-4 border-yellow mb-5 pl-5">
+                            <h4 class="text-blue text-[16px]  mb-3">Customizable performance management platform</h4>
+                            <p class="text-lightblue text-[16px] w-[80%] ">Fully Customizable performance management platform that suits your culture. not the other way around</p>
+
+                        </div>
+                        <div class="  border-l-4 border-yellow mb-5 pl-5">
+                            <h4 class="text-blue text-[16px]  mb-3">Customizable performance management?</h4>
+                            <p class="text-lightblue text-[16px] w-[80%] ">Fully Customizable performance management platform that suits not the other way around Fully Customizable </p>
+
+                        </div>
+                        <div class="  border-l-4 border-yellow mb-5 pl-5">
+                            <h4 class="text-blue text-[16px]  mb-3">Customizable performance management platform</h4>
+                            <p class="text-lightblue text-[16px] w-[80%] ">performance management platform that suits your culture. not the other way around Fully Customizable performance management platform that </p>
+
+                        </div>
+                    </div>
+                    <img src="images/Graphics 07.png" alt="" class="w-[600px] h-[300px] object-center object-cover rounded-3xl">
+                </section>
+            </section>
+
+            <!-- section  -->
+            <section class="hidden md:block bg-smoke w-[90%] rounded-3xl mx-auto p-[4%] mt-40">
+                <button class="bg-lightorange p-1 rounded-lg text-orannge ">;; What people say’s</button>
+                <h3 class="text-3xl text-blue mb-2  font-bold w-[70%] mt-7">If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</h3>
+                    <div class="flex justify-between items-center w-[95%] mx-auto">   
+                        <div>
+                            <p class="text-[120px] text-blue font-bold">50%</p>
+                            <p class="text-2xl text-blue font-bold relative top-[-30px]">Boost in Production</p>
+                        </div>
+                        <img src="images/Graphics 08.png" alt="" class=" h-[150px] w-[600px]">
+                    </div>
+            </section>
+            <!-- section  -->
+            <section class="flex flex-col  ml-[5%] w-[90%]   md:flex-row justify-between md:mt-[4%] ">
+                <section class="w-[90%]  md:w-[38%] md:mt-[7%] ">
+                    <h2 class="pb-7 text-blue text-[23px]  w-[90%] mx-auto text-center font-bold md:text-start md:text-4xl md:pb-10 md:w-full">Download Performance
+                        Management book for free.</h2>
+                    <p class="pb-7 w-[90%] mx-auto text-lightblue text-center text-[14px] md:text-start md:w-full md:text-[18px] md:pb-10">Fully Customizable performance management platform that suits your culture. not the other way around</p> 
+                    <form action="email" class="hidden md:block">
+                        <div class="flex flex-col md:flex-row">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope relative bottom-[-27px] right-[-40px] md:realtive md:bottom-[-13px] md:right-[-24px]" viewBox="0 0 16 16">
+                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
+                        </svg>
+                        <input type="email" name="email" id="email" placeholder="Add your email adress" class="mb-4 placeholder-black bg-smoke outline-none p-3 text-center text-[12px] md:rounded-l-lg md:text-start md:mb-0 md:py-3 px-10">
+                        <div class="hidden md:block">
+                            <button class="bg-gradient-to-r from-rose-500 to-orange-400 p-3   text-white text-[12px]  md:rounded-r-lg md:relative left-[-20px] md:p-3">Get started for free</button>
+                        </div>
+                        <div class="flex mx-auto">
+                                                
+                            <button class=" bg-gradient-to-r from-rose-500 to-orange-400 p-3 mx-auto iwhitetems-center text-white text-[12px]  md:hidden">Download For Free</button>
+                    </div> 
+                        </div>                        
+                        <p class="text-lightblue text-[16px] w-[95%] mx-auto mt-3">Everyone gets something special. Sign up to be everyone. :P</p>
+
+                    </form>
+                </section>
+            <img src="images/Graphics 09.png" alt="hero" class="hidden md:block w-[460px] object-cover object-center ounded-3xl">
+            
+
+        </section>
+            <section class="hidden md:block ml-[65%] relative top-[350px]">
+                    <div class=" flex">
+                        <div class="border-4 border-yellow  w-[21.6%] "></div>
+                        <div class="border-4 border-orannge w-[21.6%] "></div>
+                        <div class="border-4 border-cyan  w-[21.6%]"></div>
+                    </div>
+                    <section class="hidden md:block w-[65%]  bg-[#fcf9f9] p-10">
+                    <div>
+                        </div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <h3 class="text-blue text-2xl font-bold mb-3">Get Started in Minute</h3>
+                    <p class="text-lightblue">Fully Customizable performance management platform that suits your culture. not the other way around</p>
+                    <input type="email" name="email" id="email" placeholder="Add your email adress" class=" md:mb-4 placeholder-black bg-white outline-none p-3 text-center text-[12px] w-full text-start rounded-lg  py-3 px-10">
+                    <div><textarea name="" id="" cols="30" rows="10" class="bg-smoke placeholder-black bg-white outline-none dark:text-black pl-9 text-[14px] w-full rounded-lg " placeholder="Message"></textarea></div>
+                    <button class=" bg-gradient-to-r from-rose-500 to-orange-400 p-3 mx-auto iwhitetems-center text-white text-[12px] rounded-xl">Contac us</button>
+
+                    </section>
+            </section>
+        <section class="hidden md:block bg-smoke p-20">
+            <h1 class="md:text-2xl font-bold text-blue">Performance</h1>
+            <p class="  text-start w-[20%]  text-lightblue text-center text-[14px]  md:text-[18px] md:pb-10">Fully Customizable performance management platform that suits your culture. not the other way around</p> 
+                    <div>
+                        <div class="flex flex-row gap-20 mt-10 items-center w-[65%]">
+                            <p class="text-blue text-[17px] "><span class="text-lightblue text-[17px] pb-7">Enquiries</span>  <br>ux.rudrisha@gmail.com </p>
+                            <p class="text-blue text-[17px] "><span class="text-lightblue text-[17px] mb-7">Contact No.</span>  <br>00000-000-00 </p>
+                            <p class="font-bold text-2xl text-blue pl-20">Cheers !!</p>
+                            <!-- <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-right-fill dark:text-cyan  text-white w-[16px] h-[16px]" viewBox="0 0 16 16">
+                                    <path d="M14 0a2 2 0 0 1 2 2v12.793a.5.5 0 0 1-.854.353l-2.853-2.853a1 1 0 0 0-.707-.293H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2z"/>
+                                </svg>
+                            </div> -->
+                        </div>
+                        <div class="flex justify-between w-[65%] mt-20">
+                            <ul class="flex text-blue gap-20">
+                                <li>Product Tour</li>
+                                <li>Customer</li>
+                                <li>About us</li>
+                                <li>Help</li>
+                            </ul>
+                            
+                            <div class="flex gap-10">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter dark:text-blue" viewBox="0 0 16 16">
+                                    <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook dark:text-blue" viewBox="0 0 16 16">
+                                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin dark:text-blue" viewBox="0 0 16 16">
+                                    <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+                                </svg>
+                            </div>
+                        </div>
+            
+
+        </section>
+
+           
+           
+        
+    </main>
+</body>
+</html>
